@@ -17,9 +17,9 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 //<RaisedButton color = "primary">Bold</RaisedButton>
 
 
-
+//app will be rendered into the div with ID of App
 const render = () => {
-  const App = require('./app').default;
+  const App = require('./app.jsx').default;
   ReactDom.render(<AppContainer>
     <MuiThemeProvider>
       <App/>

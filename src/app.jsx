@@ -1,4 +1,6 @@
-import React from 'react';
+import React, {Component} from 'react';
+import io from 'socket.io-client';
+import {Login} from './screens';
 
 export default class App extends React.Component {
   render() {
